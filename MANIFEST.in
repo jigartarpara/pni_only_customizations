@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pni_only_customizations *.css
+recursive-include pni_only_customizations *.csv
+recursive-include pni_only_customizations *.html
+recursive-include pni_only_customizations *.ico
+recursive-include pni_only_customizations *.js
+recursive-include pni_only_customizations *.json
+recursive-include pni_only_customizations *.md
+recursive-include pni_only_customizations *.png
+recursive-include pni_only_customizations *.py
+recursive-include pni_only_customizations *.svg
+recursive-include pni_only_customizations *.txt
+recursive-exclude pni_only_customizations *.pyc
